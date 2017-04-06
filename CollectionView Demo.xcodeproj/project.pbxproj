@@ -12,6 +12,8 @@
 		4C6C572E1E95E44400601CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C572C1E95E44400601CBA /* Main.storyboard */; };
 		4C6C57301E95E44400601CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C572F1E95E44400601CBA /* Assets.xcassets */; };
 		4C6C57331E95E44400601CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C57311E95E44400601CBA /* LaunchScreen.storyboard */; };
+		4C6C57591E95EBFA00601CBA /* lion.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 4C6C57581E95EBFA00601CBA /* lion.jpeg */; };
+		4C6C575B1E95ED0000601CBA /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C6C575A1E95ED0000601CBA /* CollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		4C6C572F1E95E44400601CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4C6C57321E95E44400601CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4C6C57341E95E44400601CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C6C57581E95EBFA00601CBA /* lion.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lion.jpeg; sourceTree = "<group>"; };
+		4C6C575A1E95ED0000601CBA /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +60,10 @@
 			children = (
 				4C6C57281E95E44400601CBA /* AppDelegate.swift */,
 				4C6C572A1E95E44400601CBA /* ViewController.swift */,
+				4C6C575A1E95ED0000601CBA /* CollectionViewCell.swift */,
 				4C6C572C1E95E44400601CBA /* Main.storyboard */,
 				4C6C572F1E95E44400601CBA /* Assets.xcassets */,
+				4C6C57581E95EBFA00601CBA /* lion.jpeg */,
 				4C6C57311E95E44400601CBA /* LaunchScreen.storyboard */,
 				4C6C57341E95E44400601CBA /* Info.plist */,
 			);
@@ -126,6 +132,7 @@
 				4C6C57331E95E44400601CBA /* LaunchScreen.storyboard in Resources */,
 				4C6C57301E95E44400601CBA /* Assets.xcassets in Resources */,
 				4C6C572E1E95E44400601CBA /* Main.storyboard in Resources */,
+				4C6C57591E95EBFA00601CBA /* lion.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,6 +145,7 @@
 			files = (
 				4C6C572B1E95E44400601CBA /* ViewController.swift in Sources */,
 				4C6C57291E95E44400601CBA /* AppDelegate.swift in Sources */,
+				4C6C575B1E95ED0000601CBA /* CollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,6 +305,7 @@
 				4C6C57391E95E44400601CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
