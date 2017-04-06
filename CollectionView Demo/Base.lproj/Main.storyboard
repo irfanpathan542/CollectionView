@@ -50,7 +50,7 @@
                                             <constraint firstItem="Mrp-Ac-z9N" firstAttribute="top" secondItem="C01-AU-Mi3" secondAttribute="top" id="tNu-bj-De1"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="myimageview" destination="Mrp-Ac-z9N" id="VDW-fj-Hbe"/>
+                                            <outlet property="myimageview" destination="Mrp-Ac-z9N" id="KLd-kh-N1L"/>
                                         </connections>
                                     </collectionViewCell>
                                 </cells>
@@ -63,13 +63,17 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="YfM-un-6ru" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="20H-lk-qtr"/>
+                            <constraint firstItem="YfM-un-6ru" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="5oL-JA-1rJ"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YfM-un-6ru" secondAttribute="bottom" id="AeF-s5-Hm2"/>
                             <constraint firstAttribute="trailing" secondItem="YfM-un-6ru" secondAttribute="trailing" id="bgX-wP-og6"/>
+                            <constraint firstAttribute="trailing" secondItem="YfM-un-6ru" secondAttribute="trailing" id="how-MN-Ywa"/>
                             <constraint firstItem="YfM-un-6ru" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="iJC-X9-fBe"/>
+                            <constraint firstItem="YfM-un-6ru" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="t7Q-HD-HkA"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="YfM-un-6ru" secondAttribute="bottom" id="tu5-ft-L8G"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="image" destination="Mrp-Ac-z9N" id="bd1-Lk-LhX"/>
+                        <outlet property="collectionview" destination="YfM-un-6ru" id="ITm-Qa-0Gs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
